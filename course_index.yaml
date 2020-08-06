@@ -1,0 +1,7 @@
+title: Docker fundamentals
+description: Learn the basic docker commands
+labs:
+- title: docker
+  description: learn the basic docker commands
+  directory: /docker
+  number_of_tasks: 2
