@@ -6,5 +6,10 @@ from os.path import join, exists
 class LabGrader(Grader):
 	@Grader.addStep(name='step1')
 	def step1(self, workingDir, inputCommand):
-		if inputCommand == "git clone https://github.com/kwendim/IntroductionToOs.git":
+		if inputCommand == "docker info":
+			return True
+
+	@Grader.addStep(name='step2')
+	def step1(self, workingDir, inputCommand):
+		if inputCommand == "docker run -it alpine sh":
 			return True
