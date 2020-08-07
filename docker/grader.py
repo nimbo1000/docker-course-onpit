@@ -2,7 +2,6 @@
 
 from onpit import Grader
 from os.path import join, exists
-import git
 
 class LabGrader(Grader):
 	@Grader.addStep(name='step1')
