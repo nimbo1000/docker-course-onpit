@@ -10,6 +10,6 @@ class LabGrader(Grader):
 			return True
 
 	@Grader.addStep(name='step2')
-	def step1(self, workingDir, inputCommand):
+	def step2(self, workingDir, inputCommand):
 		if inputCommand == "docker run -it alpine sh":
 			return True
